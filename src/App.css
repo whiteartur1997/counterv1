@@ -1,0 +1,54 @@
+.App {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #282c34;
+}
+
+
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  width: 40%;
+  border: 3px solid #38b419;
+  border-radius: 5px;
+  padding: 20px;
+}
+
+.display {
+  height: 250px;
+  background: #38b419;
+  padding: 0 30px;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.digit {
+  font-size: 72px;
+  font-weight: bold;
+  color: #282c34;
+}
+
+.red {
+  font-size: 92px;
+  color: red;
+  font-weight: bold;
+}
+
+.buttons {
+  display: flex;
+  justify-content: space-around;
+  border: 2px solid #38b419;
+  background-color: #282c34;
+  padding: 15px;
+  border-radius: 5px;
+}
+
+.buttons__main {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+}

@@ -1,0 +1,38 @@
+.displaySettings {
+  display: flex;
+  flex-direction: column;
+  font-weight: bold;
+  position: relative;
+}
+
+.setValueWrapper {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+}
+
+.value {
+  font-size: 32px;
+}
+
+.input {
+  width: 40%;
+  border-radius: 5px;
+  outline: none;
+  border: 3px solid #282c34;
+  text-align: center;
+  font-weight: bold;
+  font-size: 24px;
+}
+
+.error {
+  background: red;
+}
+
+.error__message {
+  position: absolute;
+  left: 50%;
+  bottom: -10px;
+  transform: translateX(-50%);
+  color: red;
+}
